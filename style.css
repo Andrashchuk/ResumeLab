@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	display: block;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.main-wrap{
+	width: 980px;
+	margin:0 auto;
+	display: flex;
+}
+
+/*----- Start of LEFT-SIDE styles ------*/
+.left-side{
+	
+	width: 300px;
+	padding-top:33px;
+	padding-left:30px;
+	background-color:#1e2939;
+	color:#fff;
+}
+.photo{
+	margin-left:-30px;
+	widows: 50px;
+}
+.left-side__title{
+	padding-bottom:10px;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+.contacts i{
+	color:#fff;
+}
+.phone a{
+	margin-bottom:10px;
+	text-decoration:none;
+}
+.phone a, .mail a{
+	color:#767681;
+}
+.contacts, .skills{
+	padding-top:40px;
+}
+.skills ul{
+	padding-left:15px;
+}
+.skills ul li::marker{
+	color:#f36c3e;
+}
+
+/*----- End of LEFT-SIDE styles ------*/
+
+.header{
+	display: flex;
+	background-color:#1e2939;
+	margin: 0px 0px 0px -60px;
+	padding: 9px 0px 3px 0px;;
+
+}
+
+.menu__list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 55px;
+	margin: 0;
+	color: white;
+}
+
+.menu_list-link {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif, bold;
+	padding: 0px 10px 0px 10px;
+	border-bottom: 4px solid transparent ;
+	transition: all .3s;
+	font-weight: bold;
+	list-style-type: none;
+	color: white;
+}
+
+.menu_list-link:hover{
+	color: #4E5665;
+	border-bottom: 4px solid #f36c3e;
+}
+
+.menu_link{
+	color: white;
+}
+
+.main-header{
+	padding-top: 60px;
+}
+.right-side{
+	width:680px;
+	background:#fff;
+	padding-left: 60px;
+	
+}
+
+.name_surname{
+	padding: 25px 0px 25px 0px;
+}
+
+.about{
+	padding-right: 240px;
+	font-size: 14px;
+}
+
+.subheading{
+	padding: 40px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.projects ol {
+	padding-left:15px;
+	
+}
+
+.projects ol li::marker{
+	font-weight: bold;
+
+}
+.projects li{
+	padding-left: 10px;	
+	font-size: 14px;
+}
+
+.subheading-content{
+	padding: 15px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.orange-article{
+	color:#f36c3e;
+	margin-left: 10px;
+}
+
+.date-article{
+	padding: 10px 0px 0px 0px;
+	font-size: 10px;
+	color: grey;
+}
+
+.stick{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: black;
+	font-weight: bold;
+}
+
+.list{
+	padding: 10px 0px 0px 0px;
+}
+
+.list ul{
+	padding-left:15px;
+}
+
+.list li{
+	font-size: 14px;
+	padding: 5px 0px 5px 0px;
+}
+
+.lr_link{
+	color: black;
+}
+.lr_link:hover{
+	background-color: grey;
+	display: inline;
+
+}
