@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.main_wrap {
+    width: 1055px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(148deg, rgba(45, 34, 33, 1) 0%, rgba(57, 46, 46, 1) 56%, rgba(70, 55, 53, 1) 100%);
+    display: block;
+    padding-top: 25px;
+}
+
+.wrap {
+    display: flex;
+    background: white;
+    width: 942px;
+    height: 393px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    z-index: -1;
+}
+.burger_name {
+    position: absolute;
+    width: 340px;
+    height: 213px;
+    top: 181px;
+    left: 276px;
+    background-color: #000;
+    padding-top: 40px;
+    color: #fff;
+    padding-right: 150px;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    font-size: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.8;
+}
+
+.okl {
+    margin-left: 90px;
+    color: white;
+}
+
+.price {
+    position: relative;
+    left: 95px;
+    font-weight: bold;
+}
+
+.hot_price {
+    color: yellow;
+}
+
+.right_side {
+    display: block;
+    width: 610px;
+    height: 392px;
+    padding-top: 45px;
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    margin: 50px 90px 40px 70px;
+}
+
+.menu__list {
+    position: relative;
+    float: left;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.menu__list:nth-child(2n) {
+    margin-left: 50px;
+}
+
+.menu__list::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #d5d5d5;
+    transform: rotate(45deg);
+    bottom: -5px;
+    left: 95px;
+}
+
+.button {
+    display: block;
+    position: relative;
+    left: 820px;
+    top: 10px;
+    width: 180px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    transition: all .3s;
+    padding: 20px 43px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
