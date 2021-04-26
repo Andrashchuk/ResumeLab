@@ -9,7 +9,11 @@ article {
   font-family: Verdana;
   margin: 20px 250px;
   padding: 0 50px;
-  border: 1px solid black;
+  
+}
+
+figure{
+  border: 5px solid black;
 }
 
 figcaption {
@@ -17,8 +21,19 @@ figcaption {
 
 }
 
+h1{
+  padding: 15px 0px;
+  color: green;
+}
+
+.text{
+   padding: 15px 0px;
+}
+
 .author {
-  padding: 15px 0;
+  line-height: 1.5;
+  background-color: red;
+  color: white;
 }
 
 .image {
